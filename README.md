@@ -2,7 +2,10 @@
 <div align = "center">
   
 # Leetcode
-My solutions in C++, Java and Python to coding problems from Leetcode 🌱 
+My solutions in C++, Java and Python to coding problems from Leetcode 
+
+<br>
+
 Let's connect: https://leetcode.com/majafrankowska
 
 <br>
