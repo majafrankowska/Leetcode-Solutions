@@ -1,2 +1,2 @@
-486. Predict the Winner
-Difficulty - Medium
+// 486. Predict the Winner
+// Difficulty - Medium
