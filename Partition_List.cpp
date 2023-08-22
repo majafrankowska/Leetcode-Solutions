@@ -11,7 +11,7 @@
 class Solution {
 public:
     ListNode* partition(ListNode* head, int x) {
-         ListNode beforeHead(0);
+    ListNode beforeHead(0);
     ListNode afterHead(0);
     ListNode* before = &beforeHead;
     ListNode* after = &afterHead;
@@ -31,3 +31,5 @@ public:
     return beforeHead.next;
     }
 };
+
+// Path: Partition_List.cpp
