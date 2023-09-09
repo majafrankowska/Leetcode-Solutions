@@ -5,34 +5,18 @@ Difficulty: Medium
 377_Combination_Sum_IV.java
 */
 
-class T {
-  
-  public int robRoot;
-  public int notRobRoot;
-  public T(int robRoot, int notRobRoot) {
-    this.robRoot = robRoot;
-    this.notRobRoot = notRobRoot;
-    
-  }
-}
-
-
 class Solution {
-  public int rob(TreeNode root) {
-    
-    T t = robOrNotRob(root);
-    return Math.max(t.robRoot, t.notRobRoot);
-    
-  }
+  public int combinationSum4(int[] nums, int target) {
 
-  
-  private T robOrNotRob(TreeNode root) {
+    int[] dp = new int[target + 1];
+    dp[0] = 1;
+
+    for (int i = 0; i <= target; ++i)
+      for (final int num : nums)
+        if (i >= num)
+          dp[i] += dp[i - num];
+
+    return dp[target];
     
-    if (root == null)
-      return new T(0, 0);
-    T l = robOrNotRob(root.left);
-    T r = robOrNotRob(root.right);
-    return new T(root.val + l.notRobRoot + r.notRobRoot,Math.max(l.robRoot, l.notRobRoot) + Math.max(r.robRoot, r.notRobRoot));
- 
   }
 }
