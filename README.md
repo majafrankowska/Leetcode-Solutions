@@ -2,11 +2,11 @@
 <div align = "center">
   
 # Leetcode
-My solutions in C++, Java and Python to coding problems from Leetcode 
+Here I store all my solutions in C++, Java and Python to coding problems from Leetcode, there are some random problems but mainly ones from the Monthly Daily Contest Challange. 
 
 <br>
 
-Let's connect: https://leetcode.com/majafrankowska
+You can checkout my profile: https://leetcode.com/majafrankowska
 
 <br>
 
