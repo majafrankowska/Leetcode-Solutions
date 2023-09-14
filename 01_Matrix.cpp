@@ -1,10 +1,3 @@
-/*
-542.01 Matrix
-Difficulty: Medium
-
-542_01_Matrix.cpp
-*/
-
 class Solution {
 public:
     vector<vector<int>> updateMatrix(vector<vector<int>>& mat) {
