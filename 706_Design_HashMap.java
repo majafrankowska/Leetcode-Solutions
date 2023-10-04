@@ -46,3 +46,12 @@ class MyHashMap {
   private static final int kSize = 10000;
   List<int[]>[] lists; 
 }
+
+
+/**
+ * Your MyHashMap object will be instantiated and called as such:
+ * MyHashMap obj = new MyHashMap();
+ * obj.put(key,value);
+ * int param_2 = obj.get(key);
+ * obj.remove(key);
+ */
