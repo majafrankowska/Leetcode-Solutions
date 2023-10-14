@@ -1,4 +1,9 @@
+/*
+2742. Painting the Walls
+Difficulty: Hard
 
+2742_Painting_the_Walls.java
+*/
 
 class Solution {
  public:
