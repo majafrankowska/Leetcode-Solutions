@@ -43,4 +43,4 @@ class LRUCache {
   private int capacity;
   private Set<Node> cache = new LinkedHashSet<>();
   private Map<Integer, Node> keyToNode = new HashMap<>();
-}
+} 
