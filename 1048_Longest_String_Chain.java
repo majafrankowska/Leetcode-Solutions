@@ -1,7 +1,6 @@
 /*
 1048. Longest String Chain
 Difficulty: Medium
-
 1048_Longest_String_Chain.java
 */
 
