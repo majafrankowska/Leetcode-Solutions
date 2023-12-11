@@ -37,7 +37,7 @@ class LRUCache {
 
     Node node = new Node(key, value);
     cache.add(node);
-    keyToNode.put(key, node);
+    keyToNode.put(key, node); 
   }
 
   private int capacity;
