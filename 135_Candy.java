@@ -27,6 +27,5 @@ class Solution {
       ans += Math.max(l[i], r[i]);
 
     return ans;
-    
   }
 }
