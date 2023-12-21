@@ -9,7 +9,7 @@ Difficulty: Medium
 class Solution {
 
  public:
-  vector<vector<int>> groupThePeople(vector<in t>& groupSizes) {
+  vector<vector<int>> groupThePeople(vector<int>& groupSizes) {
     
     vector<vector<int>> ans;
     unordered_map<int, vector<int>> groupSizeToIndices;
