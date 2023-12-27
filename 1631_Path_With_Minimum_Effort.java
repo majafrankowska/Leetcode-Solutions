@@ -16,7 +16,6 @@ class T {
     this.j = j;
     this.d = d;
   }
-  
 }
 
 class Solution {
