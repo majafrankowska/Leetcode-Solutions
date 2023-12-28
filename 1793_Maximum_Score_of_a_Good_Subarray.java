@@ -21,7 +21,7 @@ public int maximumScore(int[] nums, int k) {
       }
       stack.push(i);
     }
-
+ 
     return ans;
 
   }
