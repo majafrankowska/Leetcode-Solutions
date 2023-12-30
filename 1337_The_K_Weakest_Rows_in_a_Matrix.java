@@ -22,7 +22,6 @@ class Solution {
       ans[i] = candidates[i][1];
 
     return ans;
-      
 
   }
 }
