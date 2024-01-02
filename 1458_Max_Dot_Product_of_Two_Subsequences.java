@@ -20,6 +20,5 @@ class Solution {
                                     Math.max(0, dp[i][j]) + nums1[i] * nums2[j]);
 
     return dp[m][n];
-    
   }
 }
