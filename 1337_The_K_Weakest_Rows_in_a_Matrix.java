@@ -13,7 +13,7 @@ class Solution {
 
     for (int i = 0; i < mat.length; ++i) {
       candidates[i][0] = IntStream.of(mat[i]).sum();
-      candidates[i][1] = i;
+      candidates[i][1] = i; 
     }
 
     Arrays.sort(candidates, (a, b) -> a[0] == b[0] ? a[1] - b[1] : a[0] - b[0]);
