@@ -20,7 +20,7 @@ class Solution {
         dq.pollLast();
       dq.offerLast(dp[i]);
       if (i >= k && dp[i - k] == dq.peekFirst())
-        dq.pollFirst();
+        dq.pollFirst(); 
     }
 
     return Arrays.stream(dp).max().getAsInt();
