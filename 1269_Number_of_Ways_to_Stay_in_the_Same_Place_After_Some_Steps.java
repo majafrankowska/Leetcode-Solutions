@@ -14,7 +14,7 @@ class Solution {
     long[] dp = new long[n];
     dp[0] = 1;
 
-    while (steps-- > 0) {
+    while (steps-- > 0) { 
       long[] newDp = new long[n];
       for (int i = 0; i < n; ++i) {
         newDp[i] = dp[i];
