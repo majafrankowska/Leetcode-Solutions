@@ -13,6 +13,6 @@ class Solution {
       const int y = bitset<32>(b).count();
       return x == y ? a < b : x < y;
     });
-    return arr;
+    return arr; 
   }
 };
