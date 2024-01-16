@@ -2,7 +2,7 @@
 1266_Minimum_Time_Visiting_All_Points.java
 1266. Minimum Time Visiting All Points
 Difficulty: Easy
-*/
+*/ 
 
 class Solution {
   public int minTimeToVisitAllPoints(int[][] points) {
