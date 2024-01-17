@@ -11,7 +11,7 @@ class Solution {
     final int kMod = 1_000_000_007;
     final int n = Math.min(arrLen, steps / 2 + 1); 
 
-    long[] dp = new long[n];
+    long[] dp = new long[n]; 
     dp[0] = 1;
 
     while (steps-- > 0) { 
