@@ -8,7 +8,7 @@ Difficulty: Medium
 
 class Solution {
 
- public:
+ public: 
   vector<vector<int>> groupThePeople(vector<int>& groupSizes) {
     
     vector<vector<int>> ans; 
