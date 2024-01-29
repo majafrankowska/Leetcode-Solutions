@@ -4,7 +4,7 @@
 Difficulty: Easy
 */ 
 
-class Solution { 
+class Solution {  
   public int minTimeToVisitAllPoints(int[][] points) {
     int ans = 0;
  
