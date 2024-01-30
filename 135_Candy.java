@@ -6,7 +6,7 @@ Difficulty: Hard
 */
 
 class Solution {
-  public int candy(int[] ratings) {
+  public int candy(int[] ratings) { 
     
     final int n = ratings.length;
     int ans = 0;
