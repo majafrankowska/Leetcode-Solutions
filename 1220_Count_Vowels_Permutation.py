@@ -11,7 +11,7 @@ class Solution:
     for _ in range(n - 1):
       newDp = {'a': dp['e'] + dp['i'] + dp['u'],
                'e': dp['a'] + dp['i'],
-               'i': dp['e'] + dp['o'],
+               'i': dp['e'] + dp['o'], 
                'o': dp['i'],
                'u': dp['i'] + dp['o']}
       dp = newDp
