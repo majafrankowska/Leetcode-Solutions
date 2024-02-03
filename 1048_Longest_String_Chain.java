@@ -4,7 +4,7 @@
 Difficulty: Medium  
 */
 
-class Solution {
+class Solution { 
   public int longestStrChain(String[] words) {
       
     int ans = 0; 
