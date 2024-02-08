@@ -5,7 +5,7 @@ Difficulty: Easy
 */ 
 
 class Solution {  
-  public int minTimeToVisitAllPoints(int[][] points) { 
+  public int minTimeToVisitAllPoints(int[][] points) {  
     int ans = 0;
  
     for (int i = 1; i < points.length; ++i)
