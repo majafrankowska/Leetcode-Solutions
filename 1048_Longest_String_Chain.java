@@ -10,7 +10,7 @@ class Solution {
     int ans = 0; 
     Map<String, Integer> dp = new HashMap<>(); 
 
-    Arrays.sort(words, (a, b) -> a.length() - b.length());
+    Arrays.sort(words, (a, b) -> a.length() - b.length()); 
 
     for (final String word : words) {
       int bestLength = 0;
