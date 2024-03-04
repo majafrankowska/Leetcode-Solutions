@@ -11,7 +11,7 @@ Difficulty: Hard
  * interface MountainArray {
  *   public int get(int index) {}
  *   public int length() {}
- * }
+ * } 
  */
 
 class Solution {
