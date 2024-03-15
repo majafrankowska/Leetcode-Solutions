@@ -4,7 +4,7 @@
 # 1220_Count_Vowels_Permutation.py 
  
 class Solution: 
-  def countVowelPermutation(self, n: int) -> int: 
+  def countVowelPermutation(self, n: int) -> int:  
     kMod = 1_000_000_007
     dp = {'a': 1, 'e': 1, 'i': 1, 'o': 1, 'u': 1}
 
