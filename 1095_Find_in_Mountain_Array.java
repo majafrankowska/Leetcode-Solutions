@@ -14,7 +14,7 @@ Difficulty: Hard
  * } 
  */
 
-class Solution {
+class Solution { 
   public int findInMountainArray(int target, MountainArray mountainArr) {
     final int n = mountainArr.length();
     final int peakIndex = peakIndexInMountainArray(mountainArr, 0, n - 1);
