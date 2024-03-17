@@ -7,7 +7,7 @@ Difficulty: Easy
 class Solution {
   public int[] kWeakestRows(int[][] mat, int k) {
       
-    int[] ans = new int[k];
+    int[] ans = new int[k]; 
     int[][] candidates = new int[mat.length][2];
 
     for (int i = 0; i < mat.length; ++i) {
