@@ -1,7 +1,7 @@
 # 1220. Count Vowels Permutation
 # Difficulty: Hard
 
-# 1220_Count_Vowels_Permutation.py 
+# 1220_Count_Vowels_Permutation.py  
  
 class Solution: 
   def countVowelPermutation(self, n: int) -> int:   
