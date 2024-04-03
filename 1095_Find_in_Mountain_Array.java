@@ -4,7 +4,7 @@ Difficulty: Hard
 
 1095_Find_in_Mountain_Array.java
 */
-
+ 
 /**
  * // This is MountainArray's API interface.
  * // You should not implement it, or speculate about its implementation
