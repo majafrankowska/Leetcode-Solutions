@@ -4,7 +4,7 @@ Difficulty:
 
 1269_Number_of_Ways_to_Stay_in_the_Same_Place_After_Some_Steps.java
 */
-
+ 
 class Solution {   
   public int numWays(int steps, int arrLen) {
  
