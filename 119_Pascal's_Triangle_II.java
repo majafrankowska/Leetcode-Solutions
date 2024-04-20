@@ -7,7 +7,7 @@ Difficulty: Easy
 
 class Solution {
   public List<Integer> getRow(int rowIndex) { 
-       
+        
     Integer[] ans = new Integer[rowIndex + 1]; 
     Arrays.fill(ans, 1);
  
