@@ -12,7 +12,7 @@ class Solution:
       newDp = {'a': dp['e'] + dp['i'] + dp['u'], 
                'e': dp['a'] + dp['i'],
                'i': dp['e'] + dp['o'], 
-               'o': dp['i'],
+               'o': dp['i'], 
                'u': dp['i'] + dp['o']}
       dp = newDp
 
