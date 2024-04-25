@@ -9,7 +9,7 @@ class Solution {
   public int numWays(int steps, int arrLen) {
  
     final int kMod = 1_000_000_007;
-    final int n = Math.min(arrLen, steps / 2 + 1); 
+    final int n = Math.min(arrLen, steps / 2 + 1);  
 
     long[] dp = new long[n]; 
     dp[0] = 1;
