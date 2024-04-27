@@ -19,7 +19,7 @@ class Solution {
         bestLength = Math.max(bestLength, dp.getOrDefault(pred, 0) + 1);
       }
       dp.put(word, bestLength);
-      ans = Math.max(ans, bestLength); 
+      ans = Math.max(ans, bestLength);  
     }
  
     return ans;    
