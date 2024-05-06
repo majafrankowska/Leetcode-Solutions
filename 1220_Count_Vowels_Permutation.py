@@ -2,7 +2,7 @@
 # Difficulty: Hard
 
 # 1220_Count_Vowels_Permutation.py  
- 
+  
 class Solution: 
   def countVowelPermutation(self, n: int) -> int:   
     kMod = 1_000_000_007
