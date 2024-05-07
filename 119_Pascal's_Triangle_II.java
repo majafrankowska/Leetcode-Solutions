@@ -5,7 +5,7 @@ Difficulty: Easy
 119_Pascal's_Triangle_II.java 
 */ 
 
-class Solution { 
+class Solution {  
   public List<Integer> getRow(int rowIndex) { 
         
     Integer[] ans = new Integer[rowIndex + 1]; 
