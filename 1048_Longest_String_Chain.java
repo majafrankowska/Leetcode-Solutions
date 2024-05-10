@@ -1,7 +1,7 @@
 /*
 1048_Longest_String_Chain.java
 1048. Longest String Chain 
-Difficulty: Medium  
+Difficulty: Medium   
 */
 
 class Solution {     
