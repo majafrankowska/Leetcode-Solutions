@@ -6,7 +6,7 @@ Difficulty: Medium
 
 class Solution {     
   public int longestStrChain(String[] words) {    
-        
+         
     int ans = 0; 
     Map<String, Integer> dp = new HashMap<>();   
  
