@@ -16,7 +16,7 @@ class Solution {
       int bestLength = 0;
       for (int i = 0; i < word.length(); ++i) {
         final String pred = word.substring(0, i) + word.substring(i + 1); 
-        bestLength = Math.max(bestLength, dp.getOrDefault(pred, 0) + 1);
+        bestLength = Math.max(bestLength, dp.getOrDefault(pred, 0) + 1); 
       }
       dp.put(word, bestLength);
       ans = Math.max(ans, bestLength);  
