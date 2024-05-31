@@ -6,7 +6,7 @@ class Solution {
     
   private:
   bool wordBreak(const string& s, const unordered_set<string>&& wordSet,
-                 unordered_map<string, bool>&& memo) {
+                 unordered_map<string, bool>&& memo) { 
     if (wordSet.count(s))
       return true;
     if (const auto it = memo.find(s); it != memo.cend())
